@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": " ./node_modules/.bin/_mocha"
+    "commmitmsg": "validate-commit-msg",
+    "test": "./node_modules/.bin/_mocha"
   },
   "keywords": [],
   "author": "",
@@ -17,6 +18,9 @@
     "webpack-merge": "^5.8.0"
   },
   "dependencies": {
+    "validate-commit-msg": "^2.11.1",
+    "conventional-changelog-cli": "^1.2.0",
+    "husky": "^0.13.1",
     "@babel/core": "^7.19.3",
     "@babel/plugin-syntax-dynamic-import": "^7.8.3",
     "@babel/preset-env": "^7.19.3",
